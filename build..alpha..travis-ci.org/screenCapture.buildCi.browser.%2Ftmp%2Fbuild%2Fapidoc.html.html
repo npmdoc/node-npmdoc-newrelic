@@ -173,6 +173,24 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.rule">
+            function <span class="apidocSignatureSpan">newrelic.</span>rule
+            <span class="apidocSignatureSpan">(json)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment">
+            function <span class="apidocSignatureSpan">newrelic.</span>segment
+            <span class="apidocSignatureSpan">(transaction, name, recorder)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.newrelic.statement_matcher">
             function <span class="apidocSignatureSpan">newrelic.</span>statement_matcher
             <span class="apidocSignatureSpan">(operation, operationPattern)</span>
@@ -227,6 +245,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.tx_segment">
+            function <span class="apidocSignatureSpan">newrelic.</span>tx_segment
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>agent.prototype</span>
 
         </li>
@@ -269,6 +296,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>common</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>config.prototype</span>
 
         </li>
@@ -282,6 +315,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>environment</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>express_2</span>
 
         </li>
 
@@ -335,6 +374,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>rule.prototype</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>safe_json</span>
 
         </li>
@@ -342,6 +387,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>sampler</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>segment.prototype</span>
 
         </li>
 
@@ -378,6 +429,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>tracer.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">newrelic.</span>tx_segment.prototype</span>
 
         </li>
 
@@ -1187,6 +1244,19 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.common">module newrelic.common</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.common.ensurePartialName">
+            function <span class="apidocSignatureSpan">newrelic.common.</span>ensurePartialName
+            <span class="apidocSignatureSpan">(trans)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.config">module newrelic.config</a><ol>
 
         <li>
@@ -1539,6 +1609,19 @@
             <a class="apidocElementLiA" href="#apidoc.element.newrelic.environment.toJSON">
             function <span class="apidocSignatureSpan">newrelic.environment.</span>toJSON
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.express_2">module newrelic.express_2</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.express_2.wrapMatchRequest">
+            function <span class="apidocSignatureSpan">newrelic.express_2.</span>wrapMatchRequest
+            <span class="apidocSignatureSpan">(tracer, version, original)</span>
             </a>
 
         </li>
@@ -2019,6 +2102,59 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.rule">module newrelic.rule</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.rule.rule">
+            function <span class="apidocSignatureSpan">newrelic.</span>rule
+            <span class="apidocSignatureSpan">(json)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.rule.prototype">module newrelic.rule.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.rule.prototype.apply">
+            function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>apply
+            <span class="apidocSignatureSpan">(input)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.rule.prototype.getSegments">
+            function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>getSegments
+            <span class="apidocSignatureSpan">(input)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.rule.prototype.matches">
+            function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>matches
+            <span class="apidocSignatureSpan">(input)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.rule.prototype.toJSON">
+            function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>toJSON
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.safe_json">module newrelic.safe_json</a><ol>
 
         <li>
@@ -2124,6 +2260,203 @@
         <li>
 
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">newrelic.sampler.</span>state</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.segment">module newrelic.segment</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.segment">
+            function <span class="apidocSignatureSpan">newrelic.</span>segment
+            <span class="apidocSignatureSpan">(transaction, name, recorder)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.segment.prototype">module newrelic.segment.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype._getChildPairs">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_getChildPairs
+            <span class="apidocSignatureSpan">(end)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype._isEnded">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_isEnded
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype._setExclusiveDurationInMillis">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_setExclusiveDurationInMillis
+            <span class="apidocSignatureSpan">(duration)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype._updateRootTimer">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_updateRootTimer
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.add">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>add
+            <span class="apidocSignatureSpan">(childName, recorder)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.captureDBInstanceAttributes">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>captureDBInstanceAttributes
+            <span class="apidocSignatureSpan">(host, port, database)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.end">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>end
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.getChildren">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getChildren
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.getCollectedChildren">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getCollectedChildren
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.getDurationInMillis">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getDurationInMillis
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.getExclusiveDurationInMillis">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getExclusiveDurationInMillis
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.isInCallbackState">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>isInCallbackState
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.markAsWeb">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>markAsWeb
+            <span class="apidocSignatureSpan">(rawURL)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.moveToCallbackState">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>moveToCallbackState
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.overwriteDurationInMillis">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>overwriteDurationInMillis
+            <span class="apidocSignatureSpan">(duration, start)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.probe">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>probe
+            <span class="apidocSignatureSpan">(action)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.setDurationInMillis">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>setDurationInMillis
+            <span class="apidocSignatureSpan">(duration, start)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.start">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>start
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.toJSON">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>toJSON
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.segment.prototype.touch">
+            function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>touch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
 
         </li>
 
@@ -2696,6 +3029,41 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.tx_segment">module newrelic.tx_segment</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.tx_segment.tx_segment">
+            function <span class="apidocSignatureSpan">newrelic.</span>tx_segment
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.tx_segment.prototype">module newrelic.tx_segment.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.tx_segment.prototype.load">
+            function <span class="apidocSignatureSpan">newrelic.tx_segment.prototype.</span>load
+            <span class="apidocSignatureSpan">(json)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.newrelic.tx_segment.prototype.normalize">
+            function <span class="apidocSignatureSpan">newrelic.tx_segment.prototype.</span>normalize
+            <span class="apidocSignatureSpan">(path)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.newrelic.uninstrumented">module newrelic.uninstrumented</a><ol>
 
         <li>
@@ -3245,6 +3613,93 @@
 
 
     <h2>
+        <a href="#apidoc.element.newrelic.rule" id="apidoc.element.newrelic.rule">
+        function <span class="apidocSignatureSpan">newrelic.</span>rule
+        <span class="apidocSignatureSpan">(json)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function NormalizerRule(json) {
+  if (!json) {
+    logger.debug(
+      "Received incompletely specified metric normalization rule from collector."
+    )
+    json = {}
+  }
+
+  this.eachSegment = json.each_segment || false
+  this.precedence = json.eval_order || 0
+  this.isTerminal = json.terminate_chain || false
+  this.replacement = replaceReplacer(json.replacement || '$0')
+  this.replaceAll = json.replace_all || false
+  this.ignore = json.ignore || false
+  this.matched = false
+
+  var modifiers = 'i'
+  if (this.replaceAll) modifiers += 'g'
+
+  // don't allow this to fail
+  if (json.match_expression instanceof RegExp) {
+    this.pattern = _addRegExpFlags(json.match_expression, modifiers)
+  } else {
+    try {
+      this.pattern = new RegExp(json.match_expression || '^$', modifiers)
+    } catch (error) {
+      logger.warn(error, "Problem compiling metric normalization rule pattern.")
+      this.pattern = /^$/
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment" id="apidoc.element.newrelic.segment">
+        function <span class="apidocSignatureSpan">newrelic.</span>segment
+        <span class="apidocSignatureSpan">(transaction, name, recorder)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TraceSegment(transaction, name, recorder) {
+  if (!transaction) throw new Error('All segment must be associated with a transaction.')
+  if (!name) throw new Error('All segment must be named')
+
+  this.name = name
+  this.transaction = transaction
+
+  transaction.numSegments++
+  transaction.agent.totalActiveSegments++
+  transaction.agent.segmentsCreatedInHarvest++
+
+  if (recorder) {
+    transaction.addRecorder(recorder.bind(null, this))
+  }
+
+  this.parameters = {nr_exclusive_duration_millis: null}
+  this.children = []
+
+  this.timer = new Timer()
+
+  // hidden class optimization
+  this.partialName = null
+  this._exclusiveDuration = null
+  this._collect = true
+  this.host = null
+  this.port = null
+  this.state = STATE.EXTERNAL
+  this.async = true
+  this.ignore = false
+
+  this.probe('new TraceSegment')
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.newrelic.statement_matcher" id="apidoc.element.newrelic.statement_matcher">
         function <span class="apidocSignatureSpan">newrelic.</span>statement_matcher
         <span class="apidocSignatureSpan">(operation, operationPattern)</span>
@@ -3431,6 +3886,31 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.tx_segment" id="apidoc.element.newrelic.tx_segment">
+        function <span class="apidocSignatureSpan">newrelic.</span>tx_segment
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TxSegmentNormalizer() {
+  this.terms = []
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7221,7 +7701,23 @@ if (path) {
 
   parsedHeadersToTrans(parsedCatId, externalTrans, transaction)
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+if (agent.config.feature_flag.cat) {
+  var encKey = agent.config.encoding_key
+  var incomingCatId = request.headers[NEWRELIC_ID_HEADER]
+  var obfTransaction = request.headers[NEWRELIC_TRANSACTION_HEADER]
+  var synthHeader = request.headers[NEWRELIC_SYNTHETICS_HEADER]
+  if (encKey) {
+    cat.<span class="apidocCodeKeywordSpan">handleCatHeaders</span>(incomingCatId, obfTransaction, encKey, transaction)
+    if (transaction.incomingCatId) {
+      logger.trace('Got inbound request CAT headers in transaction %s',
+        transaction.id)
+    }
+    if (synthHeader &amp;&amp; agent.config.trusted_account_ids) {
+      handleSyntheticsHeader(
+        synthHeader,
+...</pre></li>
     </ul>
 
 
@@ -7302,6 +7798,31 @@ if (path) {
     })
   } catch (err) {
     return callback(err)
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.common" id="apidoc.module.newrelic.common">module newrelic.common</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.common.ensurePartialName" id="apidoc.element.newrelic.common.ensurePartialName">
+        function <span class="apidocSignatureSpan">newrelic.common.</span>ensurePartialName
+        <span class="apidocSignatureSpan">(trans)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ensurePartialName(trans) {
+  if (trans.nameState.getName() == null ||
+      trans.nameState.prefix !== NAMES.EXPRESS.PREFIX) {
+    trans.nameState.setPrefix(NAMES.EXPRESS.PREFIX)
+    trans.nameState.setVerb(trans.verb)
+    trans.nameState.setDelimiter(NAMES.ACTION_DELIMITER)
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -8955,6 +9476,38 @@ var metrics = this.metrics
 var beginSeconds = metrics.started * FROM_MILLIS
 var endSeconds = Date.now() * FROM_MILLIS
 ...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.express_2" id="apidoc.module.newrelic.express_2">module newrelic.express_2</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.express_2.wrapMatchRequest" id="apidoc.element.newrelic.express_2.wrapMatchRequest">
+        function <span class="apidocSignatureSpan">newrelic.express_2.</span>wrapMatchRequest
+        <span class="apidocSignatureSpan">(tracer, version, original)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrapMatchRequest(tracer, version, original) {
+  return function cls_wrapMatchRequest() {
+    if (!tracer.getTransaction()) {
+      logger.trace(
+        'Express %d router called outside transaction (wrapMatchRequest).',
+        version
+      )
+      return original.apply(this, arguments)
+    }
+    var route = original.apply(this, arguments)
+
+    nameFromRoute(tracer.getSegment(), route)
+    return route
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -10811,6 +11364,221 @@ var sent = this.metrics.getOrCreateMetric(NAMES.CUSTOM_EVENTS.SENT)
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.rule" id="apidoc.module.newrelic.rule">module newrelic.rule</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.rule.rule" id="apidoc.element.newrelic.rule.rule">
+        function <span class="apidocSignatureSpan">newrelic.</span>rule
+        <span class="apidocSignatureSpan">(json)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function NormalizerRule(json) {
+  if (!json) {
+    logger.debug(
+      "Received incompletely specified metric normalization rule from collector."
+    )
+    json = {}
+  }
+
+  this.eachSegment = json.each_segment || false
+  this.precedence = json.eval_order || 0
+  this.isTerminal = json.terminate_chain || false
+  this.replacement = replaceReplacer(json.replacement || '$0')
+  this.replaceAll = json.replace_all || false
+  this.ignore = json.ignore || false
+  this.matched = false
+
+  var modifiers = 'i'
+  if (this.replaceAll) modifiers += 'g'
+
+  // don't allow this to fail
+  if (json.match_expression instanceof RegExp) {
+    this.pattern = _addRegExpFlags(json.match_expression, modifiers)
+  } else {
+    try {
+      this.pattern = new RegExp(json.match_expression || '^$', modifiers)
+    } catch (error) {
+      logger.warn(error, "Problem compiling metric normalization rule pattern.")
+      this.pattern = /^$/
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.rule.prototype" id="apidoc.module.newrelic.rule.prototype">module newrelic.rule.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.rule.prototype.apply" id="apidoc.element.newrelic.rule.prototype.apply">
+        function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>apply
+        <span class="apidocSignatureSpan">(input)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function apply(input) {
+  // For ignore rules, just see if we match and return either `null` or the
+  // original input.
+  if (this.ignore) {
+    return (this.matched = this.matches(input)) ? null : input
+  }
+
+  this.matched = false
+  var result = this.getSegments(input)
+    .map(function applyMap(segment) {
+      // Discussion of why we use `lastIndex` in function documentation to
+      // prevent de-opt due to long function.
+      this.pattern.lastIndex = 0
+      if (segment &amp;&amp; this.pattern.test(segment)) {
+        this.matched = true
+        return segment.replace(this.pattern, this.replacement)
+      }
+      return segment
+    }, this)
+    .join('/')
+  return input[0] === '/' &amp;&amp; result[0] !== '/' ? '/' + result : result
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+   )
+   tx.nameState.setName(NAMES.CUSTOM, null, NAMES.ACTION_DELIMITER, url)
+   tx.url = url
+   tx.applyUserNamingRules(tx.url)
+   tx.webSegment = tracer.createSegment(url, recordWeb)
+   tx.webSegment.start()
+
+   return tracer.bindFunction(handle, tx.webSegment).<span class="apidocCodeKeywordSpan">apply</span>(this, arguments)
+ })
+}
+
+/**
+* Creates a function that represents a background transaction. It does not start the
+* transaction automatically - the returned function needs to be invoked to start it.
+* Inside the handler function, the transaction must be ended by calling endTransaction().
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.rule.prototype.getSegments" id="apidoc.element.newrelic.rule.prototype.getSegments">
+        function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>getSegments
+        <span class="apidocSignatureSpan">(input)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getSegments(input) {
+  if (this.eachSegment) {
+    return input.split('/')
+  }
+
+  return [input]
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Does not set {NormalizerRule#matched}.
+ *
+ * @param {string} input - URL to match.
+ *
+ * @return {bool} - True if this rule matches the given input, otherwise false.
+ */
+NormalizerRule.prototype.matches = function matches(input) {
+var segments = this.<span class="apidocCodeKeywordSpan">getSegments</span>(input)
+
+for (var i = 0; i &lt; segments.length; ++i) {
+  if (this.pattern.test(segments[i])) {
+    return true
+  }
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.rule.prototype.matches" id="apidoc.element.newrelic.rule.prototype.matches">
+        function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>matches
+        <span class="apidocSignatureSpan">(input)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function matches(input) {
+  var segments = this.getSegments(input)
+
+  for (var i = 0; i &lt; segments.length; ++i) {
+    if (this.pattern.test(segments[i])) {
+      return true
+    }
+  }
+
+  return false
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @return {string?} - The normalized url, or `null` if this is an ignore rule
+ *  that matched this url.
+ */
+NormalizerRule.prototype.apply = function apply(input) {
+// For ignore rules, just see if we match and return either `null` or the
+// original input.
+if (this.ignore) {
+  return (this.matched = this.<span class="apidocCodeKeywordSpan">matches</span>(input)) ? null : input
+}
+
+this.matched = false
+var result = this.getSegments(input)
+  .map(function applyMap(segment) {
+    // Discussion of why we use `lastIndex` in function documentation to
+    // prevent de-opt due to long function.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.rule.prototype.toJSON" id="apidoc.element.newrelic.rule.prototype.toJSON">
+        function <span class="apidocSignatureSpan">newrelic.rule.prototype.</span>toJSON
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toJSON() {
+  return {
+    eachSegment: this.eachSegment,
+    precedence: this.precedence,
+    isTerminal: this.isTerminal,
+    replacement: this.replacement,
+    replaceAll: this.replaceAll,
+    ignore: this.ignore,
+    pattern: this.pattern.source
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// Send uninstrumented supportability metrics every harvest cycle
+uninstrumented.createMetrics(this.metrics)
+
+this._processCustomEvents()
+this._processErrorEvents()
+
+// wait to check until all the standard stuff has been added
+if (this.metrics.<span class="apidocCodeKeywordSpan">toJSON</span>().length &lt; 1) {
+  logger.debug("No metrics to send.")
+  return process.nextTick(callback)
+}
+
+var metrics = this.metrics
+var beginSeconds = metrics.started * FROM_MILLIS
+var endSeconds = Date.now() * FROM_MILLIS
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.newrelic.safe_json" id="apidoc.module.newrelic.safe_json">module newrelic.safe_json</a></h1>
 
 
@@ -11183,6 +11951,777 @@ if (options &amp;&amp; options.collectPendingData &amp;&amp; agent._state !== 's
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.segment" id="apidoc.module.newrelic.segment">module newrelic.segment</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.segment" id="apidoc.element.newrelic.segment.segment">
+        function <span class="apidocSignatureSpan">newrelic.</span>segment
+        <span class="apidocSignatureSpan">(transaction, name, recorder)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TraceSegment(transaction, name, recorder) {
+  if (!transaction) throw new Error('All segment must be associated with a transaction.')
+  if (!name) throw new Error('All segment must be named')
+
+  this.name = name
+  this.transaction = transaction
+
+  transaction.numSegments++
+  transaction.agent.totalActiveSegments++
+  transaction.agent.segmentsCreatedInHarvest++
+
+  if (recorder) {
+    transaction.addRecorder(recorder.bind(null, this))
+  }
+
+  this.parameters = {nr_exclusive_duration_millis: null}
+  this.children = []
+
+  this.timer = new Timer()
+
+  // hidden class optimization
+  this.partialName = null
+  this._exclusiveDuration = null
+  this._collect = true
+  this.host = null
+  this.port = null
+  this.state = STATE.EXTERNAL
+  this.async = true
+  this.ignore = false
+
+  this.probe('new TraceSegment')
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.segment.prototype" id="apidoc.module.newrelic.segment.prototype">module newrelic.segment.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype._getChildPairs" id="apidoc.element.newrelic.segment.prototype._getChildPairs">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_getChildPairs
+        <span class="apidocSignatureSpan">(end)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function _getChildPairs(end) {
+  // quick optimization
+  if (this.children.length &lt; 1) return []
+  if (!end) end = Infinity
+
+  var children = this.getChildren()
+  var childPairs = []
+  while (children.length) {
+    var child = children.pop()
+    var pair = child.timer.toRange()
+
+    if (pair[0] &gt;= end) continue
+
+    children = children.concat(child.getChildren())
+
+    pair[1] = Math.min(pair[1], end)
+    childPairs.push(pair)
+  }
+
+  return childPairs
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (this._exclusiveDuration) return this._exclusiveDuration
+
+var total = this.getDurationInMillis()
+var end = this.timer.toRange()[1]
+
+if (this.children.length &gt; 0) {
+  // convert the list of start, duration pairs to start, end pairs
+  total -= sumChildren(this.<span class="apidocCodeKeywordSpan">_getChildPairs</span>(end), end)
+}
+
+return total
+}
+
+TraceSegment.prototype.getChildren = function getChildren() {
+var children = []
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype._isEnded" id="apidoc.element.newrelic.segment.prototype._isEnded">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_isEnded
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function _isEnded() {
+  return !this.timer.isActive() || this.timer.touched
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype._setExclusiveDurationInMillis" id="apidoc.element.newrelic.segment.prototype._setExclusiveDurationInMillis">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_setExclusiveDurationInMillis
+        <span class="apidocSignatureSpan">(duration)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function _setExclusiveDurationInMillis(duration) {
+  this._exclusiveDuration = duration
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype._updateRootTimer" id="apidoc.element.newrelic.segment.prototype._updateRootTimer">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>_updateRootTimer
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function _updateRootTimer() {
+  var root = this.transaction.trace.root
+  if (this.timer.endsAfter(root.timer)) {
+    var newDuration = (
+      this.timer.start +
+      this.getDurationInMillis() -
+      root.timer.start
+    )
+    root.overwriteDurationInMillis(newDuration)
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * A segment attached to something evented (such as a database
+ * cursor) just finished an action, so set the timer to mark
+ * the timer as having a stop time.
+ */
+TraceSegment.prototype.touch = function touch() {
+  this.probe('Touched')
+  this.timer.touch()
+  this.<span class="apidocCodeKeywordSpan">_updateRootTimer</span>()
+}
+
+TraceSegment.prototype.overwriteDurationInMillis = overwriteDurationInMillis
+function overwriteDurationInMillis(duration, start) {
+  this.timer.overwriteDurationInMillis(duration, start)
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.add" id="apidoc.element.newrelic.segment.prototype.add">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>add
+        <span class="apidocSignatureSpan">(childName, recorder)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function add(childName, recorder) {
+  logger.trace('Adding segment %s to %s', childName, this.name)
+  var segment = new TraceSegment(this.transaction, childName, recorder)
+  var config = this.transaction.agent.config
+
+  if (this.transaction.trace.segmentsSeen++ &gt;= config.max_trace_segments) {
+    segment._collect = false
+  }
+  this.children.push(segment)
+
+  if (config.debug &amp;&amp; config.debug.double_linked_transactions) {
+    segment.parent = this
+  }
+
+  return segment
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ }
+
+ var instrinics = {
+   type: eventType,
+   timestamp: Date.now()
+ }
+
+ this.agent.customEvents.<span class="apidocCodeKeywordSpan">add</span>([instrinics, attributes])
+}
+
+/**
+* Shuts down the agent.
+*
+* @param {object}  [options]                           object with shut down options
+* @param {boolean} [options.collectPendingData=false]  If true, the agent will send any
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.captureDBInstanceAttributes" id="apidoc.element.newrelic.segment.prototype.captureDBInstanceAttributes">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>captureDBInstanceAttributes
+        <span class="apidocSignatureSpan">(host, port, database)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function captureDBInstanceAttributes(host, port, database) {
+  var config = this.transaction.agent.config
+  var dsTracerConf = config.datastore_tracer
+
+  // Add database name if provided and enabled.
+  if (database !== false &amp;&amp; dsTracerConf.database_name_reporting.enabled) {
+    this.parameters.database_name =
+      typeof database === 'number' ? database : (database || INSTANCE_UNKNOWN)
+  }
+
+  // Add instance information if enabled.
+  if (dsTracerConf.instance_reporting.enabled) {
+    // Determine appropriate defaults for host and port.
+    port = port || INSTANCE_UNKNOWN
+    if (host &amp;&amp; urltils.isLocalhost(host)) {
+      host = config.getHostnameSafe(host)
+    }
+    if (!host || host === 'UNKNOWN_BOX') { // Config's default name of a host.
+      host = INSTANCE_UNKNOWN
+    }
+    this.parameters.host = host
+    this.parameters.port_path_or_id = String(port)
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var location = null
+if (typeof server === 'string') {
+  location = server.split(':')
+} else if (this.HashRing &amp;&amp; this.HashRing.get &amp;&amp; metacall.key) {
+  location = this.HashRing.get(metacall.key).split(':')
+}
+if (location) {
+  segment.<span class="apidocCodeKeywordSpan">captureDBInstanceAttributes</span>(location[0], location[1], false)
+}
+
+urltils.copyParameters(
+  agent.config,
+  {
+    key: stringifySync(keys[0], 'Unknown')
+  },
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.end" id="apidoc.element.newrelic.segment.prototype.end">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>end
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function end() {
+  if (!this.timer.isActive()) return
+  this.probe('Ended')
+  this.timer.end()
+  this._updateRootTimer()
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var tracer = this.agent.tracer
+var tx = tracer.getTransaction()
+
+if (tx) {
+  if (tx.webSegment) {
+    tx.setName(tx.url, 0)
+    tx.webSegment.markAsWeb(tx.url)
+    tx.webSegment.<span class="apidocCodeKeywordSpan">end</span>()
+  } else if (tx.bgSegment) {
+    tx.bgSegment.end()
+  }
+  logger.debug('ending transaction with id: %s and name: %s', tx.id, tx.name)
+  tx.end()
+} else {
+  logger.debug('endTransaction() called while not in a transaction.')
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.getChildren" id="apidoc.element.newrelic.segment.prototype.getChildren">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getChildren
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getChildren() {
+  var children = []
+  for (var i = 0, len = this.children.length; i &lt; len; ++i) {
+    if (!this.children[i].ignore) {
+      children.push(this.children[i])
+    }
+  }
+  return children
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *                  having an end greater than the passed in end time.
+ */
+TraceSegment.prototype._getChildPairs = function _getChildPairs(end) {
+  // quick optimization
+  if (this.children.length &lt; 1) return []
+  if (!end) end = Infinity
+
+  var children = this.<span class="apidocCodeKeywordSpan">getChildren</span>()
+  var childPairs = []
+  while (children.length) {
+var child = children.pop()
+var pair = child.timer.toRange()
+
+if (pair[0] &gt;= end) continue
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.getCollectedChildren" id="apidoc.element.newrelic.segment.prototype.getCollectedChildren">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getCollectedChildren
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getCollectedChildren() {
+  var children = []
+  for (var i = 0, len = this.children.length; i &lt; len; ++i) {
+    if (this.children[i]._collect &amp;&amp; !this.children[i].ignore) {
+      children.push(this.children[i])
+    }
+  }
+  return children
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  segment.parameters.nr_exclusive_duration_millis =
+    segment.getExclusiveDurationInMillis()
+}
+
+var start = segment.timer.startedRelativeTo(segment.transaction.trace.root.timer)
+var duration = segment.getDurationInMillis()
+
+var segmentChildren = segment.<span class="apidocCodeKeywordSpan">getCollectedChildren</span>()
+
+var serializedSegment = [
+  start,
+  start + duration,
+  segment.name,
+  segment.parameters,
+  new Array(segmentChildren.length)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.getDurationInMillis" id="apidoc.element.newrelic.segment.prototype.getDurationInMillis">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getDurationInMillis
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getDurationInMillis() {
+  return this.timer.getDurationInMillis()
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/* If we're in an unnamed transaction, add a friendly warning this is to
+ * avoid people going crazy, trying to figure out why browser monitoring is
+ * not working when they're missing a transaction name.
+ */
+if (!name) return _gracefail(3)
+
+var time = trans.timer.<span class="apidocCodeKeywordSpan">getDurationInMillis</span>()
+
+/*
+ * Only the first 13 chars of the license should be used for hashing with
+ * the transaction name.
+ */
+var key = config.license_key.substr(0, 13)
+var appid = config.application_id
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.getExclusiveDurationInMillis" id="apidoc.element.newrelic.segment.prototype.getExclusiveDurationInMillis">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>getExclusiveDurationInMillis
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getExclusiveDurationInMillis() {
+  if (this._exclusiveDuration) return this._exclusiveDuration
+
+  var total = this.getDurationInMillis()
+  var end = this.timer.toRange()[1]
+
+  if (this.children.length &gt; 0) {
+    // convert the list of start, duration pairs to start, end pairs
+    total -= sumChildren(this._getChildPairs(end), end)
+  }
+
+  return total
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.trace = new Error()
+  this.raw = raw
+}
+}
+
+ParsedStatement.prototype.recordMetrics = function recordMetrics(segment, scope) {
+var duration = segment.getDurationInMillis()
+var exclusive = segment.<span class="apidocCodeKeywordSpan">getExclusiveDurationInMillis</span>()
+var transaction = segment.transaction
+var type = transaction.isWeb() ? DB.WEB : DB.OTHER
+var thisTypeSlash = this.type + '/'
+var operation = DB.OPERATION + '/' + thisTypeSlash + this.operation
+
+// Rollups
+transaction.measure(operation, null, duration, exclusive)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.isInCallbackState" id="apidoc.element.newrelic.segment.prototype.isInCallbackState">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>isInCallbackState
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isInCallbackState() {
+  return this.state === STATE.CALLBACK
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.markAsWeb" id="apidoc.element.newrelic.segment.prototype.markAsWeb">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>markAsWeb
+        <span class="apidocSignatureSpan">(rawURL)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function markAsWeb(rawURL) {
+  var transaction = this.transaction
+
+  // transaction name and web segment name must match
+  this.name = transaction.name
+  // partialName is used to name apdex metrics when recording
+  this.partialName = transaction._partialName
+
+  var config = transaction.agent.config
+
+  // Copy params object so we can modify it before applying it
+  // multiple params places. It eventually runs through copyParameters
+  // so I'm not worried about `ignored_params` or `capture_params`.
+  var params = util._extend({}, this.parameters)
+
+  // This shouldn't be moved from the segment to the trace, so remove it.
+  delete params.nr_exclusive_duration_millis
+
+  // Because we are assured we have the URL here, lets grab query
+  // params. We want to opt for keeping the keys that are already on
+  // params, so we use copyParameters
+  urltils.copyParameters(config, urltils.parseParameters(rawURL), params)
+
+  urltils.copyParameters(config, params, this.parameters)
+  urltils.copyParameters(config, params, this.transaction.trace.parameters)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+var tracer = this.agent.tracer
+var tx = tracer.getTransaction()
+
+if (tx) {
+  if (tx.webSegment) {
+    tx.setName(tx.url, 0)
+    tx.webSegment.<span class="apidocCodeKeywordSpan">markAsWeb</span>(tx.url)
+    tx.webSegment.end()
+  } else if (tx.bgSegment) {
+    tx.bgSegment.end()
+  }
+  logger.debug('ending transaction with id: %s and name: %s', tx.id, tx.name)
+  tx.end()
+} else {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.moveToCallbackState" id="apidoc.element.newrelic.segment.prototype.moveToCallbackState">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>moveToCallbackState
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function moveToCallbackState() {
+  this.state = STATE.CALLBACK
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.overwriteDurationInMillis" id="apidoc.element.newrelic.segment.prototype.overwriteDurationInMillis">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>overwriteDurationInMillis
+        <span class="apidocSignatureSpan">(duration, start)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function overwriteDurationInMillis(duration, start) {
+  this.timer.overwriteDurationInMillis(duration, start)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.probe('Touched')
+  this.timer.touch()
+  this._updateRootTimer()
+}
+
+TraceSegment.prototype.overwriteDurationInMillis = overwriteDurationInMillis
+function overwriteDurationInMillis(duration, start) {
+  this.timer.<span class="apidocCodeKeywordSpan">overwriteDurationInMillis</span>(duration, start)
+}
+
+
+TraceSegment.prototype.start = function start() {
+  this.timer.begin()
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.probe" id="apidoc.element.newrelic.segment.prototype.probe">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>probe
+        <span class="apidocSignatureSpan">(action)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function probe(action) {
+  if (this.transaction.traceStacks) {
+    this.transaction.probe(action, {segment: this.name})
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ this._collect = true
+ this.host = null
+ this.port = null
+ this.state = STATE.EXTERNAL
+ this.async = true
+ this.ignore = false
+
+ this.<span class="apidocCodeKeywordSpan">probe</span>('new TraceSegment')
+}
+
+/**
+* @param {string} host
+*  The name of the host of the database. This will be normalized if the string
+*  represents localhost.
+*
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.setDurationInMillis" id="apidoc.element.newrelic.segment.prototype.setDurationInMillis">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>setDurationInMillis
+        <span class="apidocSignatureSpan">(duration, start)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setDurationInMillis(duration, start) {
+  this.timer.setDurationInMillis(duration, start)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Set the duration of the segment explicitly.
+ *
+ * @param {Number} duration Duration in milliseconds.
+ */
+TraceSegment.prototype.setDurationInMillis = setDurationInMillis
+
+function setDurationInMillis(duration, start) {
+  this.timer.<span class="apidocCodeKeywordSpan">setDurationInMillis</span>(duration, start)
+}
+
+TraceSegment.prototype.getDurationInMillis = function getDurationInMillis() {
+  return this.timer.getDurationInMillis()
+}
+
+/**
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.start" id="apidoc.element.newrelic.segment.prototype.start">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>start
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function start() {
+  this.timer.begin()
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+throw new Error(message)
+      }
+
+      var shimmer = require('./lib/shimmer.js')
+      shimmer.patchModule(agent)
+      shimmer.bootstrapInstrumentation(agent)
+
+      agent.<span class="apidocCodeKeywordSpan">start</span>(function cb_start(error) {
+if (!error) {
+  return logger.debug("New Relic for Node.js is connected to New Relic.")
+}
+
+var errorMessage = "New Relic for Node.js halted startup due to an error:"
+logger.error(error, errorMessage)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.toJSON" id="apidoc.element.newrelic.segment.prototype.toJSON">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>toJSON
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toJSON() {
+  // use depth-first search on the segment tree using stack
+  var segmentsToProcess = [this]
+  // used to keep track of the last parent to add child JSONs to, it will hold
+  // pairs of the parent serialized segment and number of children it is expecting
+  // to have added
+  var parentStack = []
+  var resultTreeJson = null
+
+  while (segmentsToProcess.length !== 0) {
+    var segment = segmentsToProcess.pop()
+
+    if (!segment.parameters.nr_exclusive_duration_millis) {
+      segment.parameters.nr_exclusive_duration_millis =
+        segment.getExclusiveDurationInMillis()
+    }
+
+    var start = segment.timer.startedRelativeTo(segment.transaction.trace.root.timer)
+    var duration = segment.getDurationInMillis()
+
+    var segmentChildren = segment.getCollectedChildren()
+
+    var serializedSegment = [
+      start,
+      start + duration,
+      segment.name,
+      segment.parameters,
+      new Array(segmentChildren.length)
+    ]
+
+    if (resultTreeJson === null) {
+      resultTreeJson = serializedSegment
+    }
+
+    if (parentStack.length !== 0) {
+      // get last visited parent
+      var parent = parentStack[parentStack.length - 1]
+
+      var parentChildren = parent[0][4]
+      var childIndex = --parent[1]
+
+      parentChildren[childIndex] = serializedSegment
+
+      // if the parent received all its children data, remove the parent from the stack
+      if (childIndex === 0) {
+        parentStack.pop()
+      }
+    }
+
+    if (segmentChildren.length) {
+      parentStack.push([serializedSegment, segmentChildren.length])
+      segmentsToProcess = segmentsToProcess.concat(segmentChildren)
+    }
+  }
+  return resultTreeJson
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// Send uninstrumented supportability metrics every harvest cycle
+uninstrumented.createMetrics(this.metrics)
+
+this._processCustomEvents()
+this._processErrorEvents()
+
+// wait to check until all the standard stuff has been added
+if (this.metrics.<span class="apidocCodeKeywordSpan">toJSON</span>().length &lt; 1) {
+  logger.debug("No metrics to send.")
+  return process.nextTick(callback)
+}
+
+var metrics = this.metrics
+var beginSeconds = metrics.started * FROM_MILLIS
+var endSeconds = Date.now() * FROM_MILLIS
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.segment.prototype.touch" id="apidoc.element.newrelic.segment.prototype.touch">
+        function <span class="apidocSignatureSpan">newrelic.segment.prototype.</span>touch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function touch() {
+  this.probe('Touched')
+  this.timer.touch()
+  this._updateRootTimer()
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (this.state === PENDING) return 0
+
+// only set by setDurationInMillis
+if (this.durationInMillis !== null &amp;&amp; this.durationInMillis &gt;= 0) {
+  return this.durationInMillis
+}
+
+// prioritize .end() and .<span class="apidocCodeKeywordSpan">touch</span>()
+if (this.hrDuration) {
+  return hrToMillis(this.hrDuration)
+}
+
+if (this.duration) {
+  return this.duration
+}
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.newrelic.shimmer" id="apidoc.module.newrelic.shimmer">module newrelic.shimmer</a></h1>
 
 
@@ -11454,7 +12993,23 @@ Object.keys(CORE_INSTRUMENTATION).forEach(function cb_forEach(mojule) {
 
   return original
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  }
+  if (deprecatedCreateClient) {
+    delete http.createClient
+    http.createClient = deprecatedCreateClient
+  }
+}
+
+DeprecatedClient = shimmer.<span class="apidocCodeKeywordSpan">wrapDeprecated</span>(
+  http,
+  'http',
+  'Client',
+  {
+    get: function get() {
+      var example = new DeprecatedClient(80, 'localhost')
+      wrapLegacyClient(agent, example.constructor.prototype)
+...</pre></li>
     </ul>
 
 
@@ -12646,7 +14201,23 @@ if (tx) {
   return (this.getDurationInMillis() + this.start) &gt;
     (other.getDurationInMillis() + other.start)
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * Helper to set the end of the root timer to this segment's root if it is later
+ * in time.
+ */
+TraceSegment.prototype._updateRootTimer = function _updateRootTimer() {
+var root = this.transaction.trace.root
+if (this.timer.<span class="apidocCodeKeywordSpan">endsAfter</span>(root.timer)) {
+  var newDuration = (
+    this.timer.start +
+    this.getDurationInMillis() -
+    root.timer.start
+  )
+  root.overwriteDurationInMillis(newDuration)
+}
+...</pre></li>
     </ul>
 
 
@@ -12775,7 +14346,22 @@ if (agent.config.feature_flag.express_segments) {
   this.durationInMillis = duration
   this.state = STOPPED
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.probe('Touched')
+  this.timer.touch()
+  this._updateRootTimer()
+}
+
+TraceSegment.prototype.overwriteDurationInMillis = overwriteDurationInMillis
+function overwriteDurationInMillis(duration, start) {
+  this.timer.<span class="apidocCodeKeywordSpan">overwriteDurationInMillis</span>(duration, start)
+}
+
+
+TraceSegment.prototype.start = function start() {
+  this.timer.begin()
+}
+...</pre></li>
     </ul>
 
 
@@ -12802,7 +14388,23 @@ if (agent.config.feature_flag.express_segments) {
   this.hrstart = [Math.floor(start / 1e3), start % 1e3 * 1e6]
   this.start = start
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Set the duration of the segment explicitly.
+ *
+ * @param {Number} duration Duration in milliseconds.
+ */
+TraceSegment.prototype.setDurationInMillis = setDurationInMillis
+
+function setDurationInMillis(duration, start) {
+  this.timer.<span class="apidocCodeKeywordSpan">setDurationInMillis</span>(duration, start)
+}
+
+TraceSegment.prototype.getDurationInMillis = function getDurationInMillis() {
+  return this.timer.getDurationInMillis()
+}
+
+/**
+...</pre></li>
     </ul>
 
 
@@ -12849,7 +14451,23 @@ if (agent.config.feature_flag.express_segments) {
 
   return this.start - other.start
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var segment = segmentsToProcess.pop()
+
+if (!segment.parameters.nr_exclusive_duration_millis) {
+  segment.parameters.nr_exclusive_duration_millis =
+    segment.getExclusiveDurationInMillis()
+}
+
+var start = segment.timer.<span class="apidocCodeKeywordSpan">startedRelativeTo</span>(segment.transaction.trace.root.timer)
+var duration = segment.getDurationInMillis()
+
+var segmentChildren = segment.getCollectedChildren()
+
+var serializedSegment = [
+  start,
+  start + duration,
+...</pre></li>
     </ul>
 
 
@@ -12864,7 +14482,23 @@ if (agent.config.feature_flag.express_segments) {
     <li>description and source-code<pre class="apidocCodePre">function toRange() {
   return [this.start, this.start + this.getDurationInMillis()]
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+TraceSegment.prototype.getExclusiveDurationInMillis = getExclusiveDurationInMillis
+
+function getExclusiveDurationInMillis() {
+if (this._exclusiveDuration) return this._exclusiveDuration
+
+var total = this.getDurationInMillis()
+var end = this.timer.<span class="apidocCodeKeywordSpan">toRange</span>()[1]
+
+if (this.children.length &gt; 0) {
+  // convert the list of start, duration pairs to start, end pairs
+  total -= sumChildren(this._getChildPairs(end), end)
+}
+
+return total
+...</pre></li>
     </ul>
 
 
@@ -13135,6 +14769,123 @@ var data = []
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.tx_segment" id="apidoc.module.newrelic.tx_segment">module newrelic.tx_segment</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.tx_segment.tx_segment" id="apidoc.element.newrelic.tx_segment.tx_segment">
+        function <span class="apidocSignatureSpan">newrelic.</span>tx_segment
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TxSegmentNormalizer() {
+  this.terms = []
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.newrelic.tx_segment.prototype" id="apidoc.module.newrelic.tx_segment.prototype">module newrelic.tx_segment.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.tx_segment.prototype.load" id="apidoc.element.newrelic.tx_segment.prototype.load">
+        function <span class="apidocSignatureSpan">newrelic.tx_segment.prototype.</span>load
+        <span class="apidocSignatureSpan">(json)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function load(json) {
+  if (Array.isArray(json)) {
+    this.terms = filterRules(json)
+  } else {
+    logger.warn(
+      'transaction_segment_terms was not an array got: %s (%s)',
+      typeof json,
+      json
+    )
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this.config.apdex_t,
+    this.mapper,
+    this.metricNameNormalizer
+  )
+
+  this.collector.metricData(payload, function cb_metricData(error, rules) {
+    if (error) agent.metrics.merge(metrics)
+    if (rules) agent.mapper.<span class="apidocCodeKeywordSpan">load</span>(rules)
+
+    callback(error)
+  })
+} else {
+  process.nextTick(function cb_nextTick() {
+    callback(new Error("not connected to New Relic (metrics will be held)"))
+  })
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.newrelic.tx_segment.prototype.normalize" id="apidoc.element.newrelic.tx_segment.prototype.normalize">
+        function <span class="apidocSignatureSpan">newrelic.tx_segment.prototype.</span>normalize
+        <span class="apidocSignatureSpan">(path)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function normalize(path) {
+  var currentTerm
+  var prefix
+  for (var i = 0; i &lt; this.terms.length; i++) {
+    currentTerm = this.terms[i]
+    prefix = currentTerm.prefix
+    if (path.lastIndexOf(prefix, 0) === -1) {
+      continue
+    }
+    var fragment = path.slice(prefix.length)
+    var parts = fragment.split('/')
+    var result = []
+    var prev
+
+    var segment
+    for (var j = 0; j &lt; parts.length; j++) {
+      segment = parts[j]
+
+      if (segment === '' &amp;&amp; j + 1 === parts.length) break
+
+      if (currentTerm.terms.indexOf(segment) === -1) {
+        if (prev === '*') continue
+        result.push(prev = '*')
+      } else {
+        result.push(prev = segment)
+      }
+    }
+    logger.trace('Normalizing %s because of rule: %s', path, currentTerm)
+    return {
+      matched: true, // To match MetricNormalizer
+      ignore: false, // ^^
+      value: prefix + result.join('/')
+    }
+  }
+
+  return {
+    matched: false, // To match MetricNormalizer
+    ignore: false,  // ^^
+    value: path
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.newrelic.uninstrumented" id="apidoc.module.newrelic.uninstrumented">module newrelic.uninstrumented</a></h1>
 
 
@@ -13334,7 +15085,23 @@ if (hasExceptions &amp;&amp; !isIgnoredErrorStatusCode) {
     <li>description and source-code<pre class="apidocCodePre">function isLocahost(host) {
   return LOCALHOST_NAMES.hasOwnProperty(host)
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    typeof database === 'number' ? database : (database || INSTANCE_UNKNOWN)
+}
+
+// Add instance information if enabled.
+if (dsTracerConf.instance_reporting.enabled) {
+  // Determine appropriate defaults for host and port.
+  port = port || INSTANCE_UNKNOWN
+  if (host &amp;&amp; urltils.<span class="apidocCodeKeywordSpan">isLocalhost</span>(host)) {
+    host = config.getHostnameSafe(host)
+  }
+  if (!host || host === 'UNKNOWN_BOX') { // Config's default name of a host.
+    host = INSTANCE_UNKNOWN
+  }
+  this.parameters.host = host
+  this.parameters.port_path_or_id = String(port)
+...</pre></li>
     </ul>
 
 
